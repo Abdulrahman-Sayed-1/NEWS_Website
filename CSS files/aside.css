@@ -1,0 +1,23 @@
+.aside{
+    padding: 10px;
+    float: right;
+    width: 25%;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.aside-item {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.aside-image img {
+    max-width: 100%;
+    height: auto;
+}
