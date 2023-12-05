@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-div {
+  background-color: #000;
+  color: white;
+  padding: 20px;
+  bottom: 0;
+  width: 100%;
+}
+.footer {
+  color: #fff;
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.main-content {
+  margin-bottom: 60px;
+}
+
+.footer-widget-area {
+    margin-bottom: 30px;
+}
+
+.list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.widget-title {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
