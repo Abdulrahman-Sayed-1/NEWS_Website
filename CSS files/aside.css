@@ -1,23 +1,59 @@
-.right-aside{
-    padding: 10px;
-    float: right;
-    width: 25%;
-    margin: 10px;
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+body {
+  font-family: Arial, sans-serif;
 }
+
+.right-aside {
+  padding: 10px;
+  float: right;
+  width: 25%;
+  margin: 10px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 .aside-item {
-    width: 100%;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    padding: 10px;
-    box-sizing: border-box;
-    text-align: center;
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  overflow: hidden;
 }
 
 .aside-image img {
-    max-width: 100%;
-    height: auto;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px 0 0 8px;
+}
+.aside-item section {
+  margin-bottom: 20px; /* Add space between paragraphs */
+}
+
+.aside-item p {
+  margin-bottom: 10px; /* Add space between each paragraph's lines */
+}
+
+.aside-item p:not(:last-child) {
+  border-bottom: 1px solid #ccc; /* Add a border between paragraphs */
+  padding-bottom: 10px; /* Add space below the border */
+}
+
+.top-stories {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.aside-content {
+  padding: 10px;
+}
+
+.aside-content p {
+  margin-bottom: 10px;
 }
