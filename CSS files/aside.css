@@ -1,59 +1,132 @@
-body {
-  font-family: Arial, sans-serif;
-}
-
 .right-aside {
-  padding: 10px;
   float: right;
-  width: 25%;
-  margin: 10px;
-  text-align: center;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
+  width: 24%;
+  padding: 20px 10px;
+  margin-top: 80px;
+  margin-right: 100px;
+  background-color: #f4f4f4;
 }
 
 .aside-item {
-  display: flex;
-  width: 100%;
-  margin-bottom: 20px;
-  border: 1px solid #ccc;
+  display: inline-block;
+  width: 90%;
   padding: 10px;
-  box-sizing: border-box;
-  text-align: center;
-  overflow: hidden;
 }
 
-.aside-image img {
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
-  border-radius: 8px 0 0 8px;
-}
-.aside-item section {
-  margin-bottom: 20px; /* Add space between paragraphs */
+.aside-item section h2 {
+  font-weight: bold;
+  padding-left: 10px;
+  padding-bottom: 8px;
+  border-bottom: 1px rgb(217, 217, 217) solid;
 }
 
-.aside-item p {
-  margin-bottom: 10px; /* Add space between each paragraph's lines */
-}
-
-.aside-item p:not(:last-child) {
-  border-bottom: 1px solid #ccc; /* Add a border between paragraphs */
-  padding-bottom: 10px; /* Add space below the border */
+.aside-item section p {
+  padding: 25px 0px;
+  padding-left: 10px;
+  border-bottom: 1px rgb(217, 217, 217) solid;
+  color: rgb(125, 125, 125);
 }
 
 .top-stories {
-  background-color: #f0f0f0;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.aside-content {
+  width: 100%;
   padding: 10px;
 }
 
+.top-stories h2 {
+  padding: 5px 0px 20px 10px;
+  margin-right: 35px;
+  border-bottom: 1px rgb(217, 217, 217) solid;
+}
+
+.top-stories .aside-item {
+  margin-top: 15px;
+  margin-left: 10px;
+  padding: 0px;
+  display: flex;
+}
+
+.aside-image img {
+  margin-right: 5px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+.aside-content {
+  padding-left: 15px;
+  border-bottom: 1px white solid;
+  box-shadow: 0px 0px 10px rgb(207, 207, 207);
+  width: 120%;
+}
+
+.aside-content h1 {
+  padding-top: 6px;
+  padding-bottom: 4px;
+  color: red;
+  font-size: large;
+}
+
 .aside-content p {
-  margin-bottom: 10px;
+  padding-top: 2px;
+  padding-bottom: 5px;
+  font-size: large;
+  font-weight: 500;
+}
+
+.aside-content p2 {
+  padding-top: 2px;
+  font-size: medium;
+  font-weight: bold;
+  color: rgb(151, 151, 151);
+}
+
+.advertisment {
+  align-items: center;
+  margin: 35px 40px 0px 10px;
+  padding-bottom: 20px;
+  border-top: 1px rgb(217, 217, 217) solid;
+  border-bottom: 1px rgb(217, 217, 217) solid;
+}
+
+.advertisment img {
+  padding-top: 20px;
+  margin-left: 25px;
+  width: 90%;
+  height: 50%;
+}
+
+.popular-posts {
+  width: 100%;
+  padding: 10px;
+}
+
+.popular-posts h2 {
+  padding: 20px 0px 20px 12px;
+  margin-right: 35px;
+  border-bottom: 1px rgb(217, 217, 217) solid;
+}
+
+.popular-posts img {
+  margin-left: 10%;
+  width: 95%;
+  height: 55%;
+}
+
+.popular-content {
+  margin-left: 10%;
+  padding-top: 10px;
+}
+
+.popular-content p {
+  padding-bottom: 5px;
+  font-size: large;
+  font-weight: bold;
+}
+
+.popular-content p2 {
+  padding-top: 2px;
+  font-size: medium;
+  font-weight: bold;
+  color: rgb(151, 151, 151);
 }
