@@ -1,0 +1,21 @@
+.news-section {
+  float: left;
+  width: 70%;
+  padding: 20px;
+}
+
+.post {
+  margin-bottom: 30px;
+}
+
+.post_img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.post_title {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
