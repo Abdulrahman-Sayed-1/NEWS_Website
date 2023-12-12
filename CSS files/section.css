@@ -1,42 +1,177 @@
 .main-section {
-  width: 70%;
-  margin: 35px;
+  margin-left: 185px;
+  margin-top: 57px;
 }
+
 .section-title {
-  text-align: center;
-  padding-bottom: 20px;
-  border-bottom: 2px solid #3498db;
+  text-align: left;
+  margin-bottom: 26px;
 }
+
 .section-title h2 {
-  font-size: 32px;
-  color: #3498db;
+  margin-left: 5px;
+  font-size: 21px;
+  color: black;
 }
+
 .section-content {
-  display: flex;
+  display: inline;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.post {
+
+.post-with-image {
+  align-items: center;
+  margin-right: 118px;
+}
+
+.post1-image1 {
   width: 48%;
-  margin-bottom: 20px;
-  background-color: #ecf0f1;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 7px;
+  opacity: 1.4;
+  filter: brightness(61%);
+  background-color: rgb(235, 227, 227);
 }
-.post-image {
-  width: 100%;
-  height: auto;
-  border-radius: 8px 8px 0 0;
+
+.post1-title {
+  text-shadow: 1px 1px rgb(175, 175, 175);
+  text-align: center;
+  position: absolute;
+  top: 42%;
+  left: 14%;
+  font-size: 33px;
+  color: rgb(243, 243, 243);
 }
+
 .post-body {
-  padding: 15px;
+  margin-top: 0px;
+  margin-right: 945px;
+  background-color: rgb(249, 249, 249);
+  border-radius: 7px;
+  padding: 18px;
+  text-align: left;
 }
-.post-title {
-  font-size: 18px;
+
+.main-section a:link {
   text-decoration: none;
-  transition: color 0.3s ease;
+  color: black;
+  font-weight: bold;
+  font-size: 19px;
 }
-a {
-  text-decoration: none;
+
+.post-body p {
+  padding-top: 18px;
+  padding-bottom: 15px;
+  font-weight: 600;
+  color: rgb(171, 168, 168);
+}
+
+p2 {
+  font-weight: 500;
+  color: rgb(147, 146, 146);
+}
+
+.post2-title {
+  margin-top: -615px;
+  margin-left: 898px;
+  margin-right: 590px;
+  background-color: rgb(249, 249, 249);
+  border-radius: 5px;
+  padding: 29px;
+}
+
+.post2-title p {
+  font-weight: 700;
+  font-size: 22px;
+  padding-bottom: 15px;
+}
+
+.side-post2-with-image {
+  margin-left: 898px;
+  margin-top: 18px;
+  border-radius: 5px;
+  margin-bottom: 18px;
+}
+
+.post2-image1 {
+  width: 43%;
+  border-radius: 4px;
+}
+
+.post3-title a:link {
+  margin-right: 539px;
+  margin-top: 0px;
+  margin-left: 936px;
+  position: absolute;
+  top: 54%;
+  left: 8%;
+  color: white;
+  font-size: 24px;
+}
+
+.post4-title {
+  margin-top: 0px;
+  margin-left: 898px;
+  margin-right: 590px;
+  margin-bottom: 18px;
+  background-color: rgb(249, 249, 249);
+  border-radius: 5px;
+  padding: 29px;
+}
+
+.post4-title p {
+  font-weight: 700;
+  font-size: 22px;
+  padding-bottom: 15px;
+
+}
+
+.post1-with-background-image {
+  margin-top: -254px;
+}
+
+.post3-image1 {
+  filter: brightness(83%);
+  width: 22%;
+  height: 49%;
+  border-radius: 4px;
+}
+
+.post1-body {
+  margin-top: 0px;
+  margin-right: 1501px;
+  background-color: rgb(249, 249, 249);
+  border-radius: 7px;
+  padding: 18px;
+  text-align: left;
+}
+
+.post5-title p {
+  padding-bottom: 15px;
+}
+
+
+.post2-with-image {
+  margin-left: 467px;
+  margin-top: -383px;
+}
+
+.post4-image1 {
+  width: 27%;
+  height: 49%;
+  border-radius: 4px;
+}
+
+.post2-body {
+  margin-top: 0px;
+  margin-right: 1054px;
+  background-color: rgb(249, 249, 249);
+  border-radius: 7px;
+  padding: 18px;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.post6-title p {
+  padding-bottom: 15px;
 }
