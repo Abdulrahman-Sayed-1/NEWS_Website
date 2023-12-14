@@ -1,14 +1,22 @@
+body{
+  background-color:#696970;
+}
+
 .news-section {
   float: left;
   width: 65%;
   padding: 20px;
-  background-color: #f9f9f9;
+  background-color:#696960;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   border-radius: 15px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
+
 .post {
   margin-bottom: 30px;
-  background-color: #fff;
+  background-color:#f4f4f4;
   border-radius: 15px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   padding: 20px;
@@ -16,11 +24,13 @@
   flex-direction: column;
   align-items: center;  
 }
+
 .post h3 {
   color: #333;
   font-size: 2rem;
   margin-bottom: 15px;
 }
+
 .post_img {
   width: 60%;
   max-width: 100%;
@@ -28,8 +38,42 @@
   margin-bottom: 15px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.5s ease-in-out; 
+}
+
+.post_img:hover {
+  transform: scale(1.05); 
 }
 .post_title {
   line-height: 1.6;
   font-size: 1.2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .news-section {
+    width: 100%;
+    float: none;
+  }
+
+  .post_img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .news-section {
+    padding: 15px;
+  }
+  .post h3 {
+    font-size: 1.5rem;
+  }
+  .post_title {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .news-section {
+    width: 60%;
+  }
 }
