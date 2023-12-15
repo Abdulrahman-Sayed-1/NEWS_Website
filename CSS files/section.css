@@ -1,6 +1,7 @@
-body{
+body {
   background: rgb(228, 228, 228);
 }
+
 .main-section {
   margin-left: 185px;
   margin-top: 57px;
@@ -32,20 +33,20 @@ body{
 
 .post1-image1 {
   width: 78%;
-  height:250px;
+  height: 250px;
   opacity: 1.4;
   filter: brightness(61%);
   background-color: rgb(235, 227, 227);
-  border-top-left-radius:7px;
-  border-top-right-radius:7px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
 }
 
 .post-body {
   margin-top: -4px;
   margin-right: 172px;
   background-color: rgb(255, 253, 253);
-  border-bottom-left-radius:7px;
-  border-bottom-right-radius:7px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
   padding: 18px;
   text-align: left;
 }
@@ -117,6 +118,7 @@ p2 {
   border-radius: 5px;
   padding: 20px;
 }
+
 .post5-title {
   margin-top: 0px;
   margin-left: 640px;
@@ -126,12 +128,14 @@ p2 {
   border-radius: 5px;
   padding: 29px;
 }
+
 .post4-title p {
   font-weight: 700;
   font-size: 18px;
   padding-bottom: 15px;
 
 }
+
 .post5-title p {
   font-weight: 700;
   font-size: 18px;
@@ -147,19 +151,19 @@ p2 {
   filter: brightness(83%);
   width: 23%;
   height: 55%;
-  border-top-left-radius:7px;
-  border-top-right-radius:7px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
 }
 
 .post1-body {
   margin-top: -4px;
   margin-right: 1028px;
   background-color: rgb(249, 249, 249);
-  border-bottom-left-radius:7px;
-  border-bottom-right-radius:7px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
   padding: 18px;
   text-align: left;
-  
+
 }
 
 .post6-title p {
@@ -174,8 +178,8 @@ p2 {
 
 .post4-image1 {
   width: 29%;
-  border-top-left-radius:7px;
-  border-top-right-radius:7px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
 }
 
 .post2-body {
@@ -190,5 +194,5 @@ p2 {
 
 .post7-title p {
   padding-bottom: 0px;
-font-size: 18px;
+  font-size: 18px;
 }
