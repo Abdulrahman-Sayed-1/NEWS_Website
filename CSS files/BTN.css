@@ -1,0 +1,26 @@
+
+.Text{
+    font-size: 24px;
+}
+.moreText{
+    display: none;
+}
+.readMoreBtn {
+    padding: 10px 30px;
+    font-size: 18px;
+    background-color: rgb(149, 170, 197);
+    color: rgb(53, 49, 49);
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.moreText.show-more{
+    display: inline;
+}
+.dots{
+    display: inline-block;
+}
+.Text.show-more.dots{
+    display: none;
+}

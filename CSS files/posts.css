@@ -1,7 +1,40 @@
 body{
   background-color:#696970;
-}
 
+}
+body{
+  font-family: 'Montserrat';
+  text-align: justify;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: rgb(18, 23, 27);
+  color: aliceblue;
+}
+.text{
+  font-size: 24px;
+}
+.moreText{
+  display: none;
+}
+.text.show-more .moreText{
+  display: inline;
+}
+.readMoreBtn{
+  padding: 15px 60px;
+  background-color: rgb(149, 170, 197);
+  color:rgb(53, 49, 49);
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  font-size: 24px;
+  cursor: pointer;
+}
+.dots{
+  display: inline-block;
+}
+.text.show-more .dots{
+  display: none;
+}
 .news-section {
   float: left;
   width: 65%;
@@ -22,7 +55,7 @@ body{
   padding: 20px;
   display: flex;
   flex-direction: column;
-  align-items: center;  
+  align-items: center;
 }
 
 .post h3 {
@@ -38,11 +71,11 @@ body{
   margin-bottom: 15px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  transition: transform 0.5s ease-in-out; 
+  transition: transform 0.5s ease-in-out;
 }
 
 .post_img:hover {
-  transform: scale(1.05); 
+  transform: scale(1.05);
 }
 .post_title {
   line-height: 1.6;
