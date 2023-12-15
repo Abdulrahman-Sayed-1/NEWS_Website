@@ -10,7 +10,11 @@
   margin-left: 25px;
   background-color: #f4f4f4;
 }
-
+.aside-content a:link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
 .aside-item {
   display: inline-block;
   width: 90%;
@@ -64,25 +68,26 @@
   border-bottom: 1px white solid;
   box-shadow: 0px 0px 10px rgb(207, 207, 207);
   width: 120%;
+  border-radius: 7px;
 }
 
 .aside-content h1 {
   padding-top: 6px;
   padding-bottom: 4px;
   color: red;
-  font-size: large;
+  font-size: 16px;
 }
 
 .aside-content p {
   padding-top: 2px;
-  padding-bottom: 5px;
+  padding-bottom: 3px;
   font-size: 15px;
   font-weight: 500;
 }
 
 .aside-content p2 {
   padding-top: 2px;
-  font-size: medium;
+  font-size: 15px;
   font-weight: bold;
   color: rgb(151, 151, 151);
 }

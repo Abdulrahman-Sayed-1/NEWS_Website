@@ -73,6 +73,7 @@ p2 {
 
 .post2-title {
   margin-top: -438px;
+  width: 30%;
   margin-left: 640px;
   margin-right: -20px;
   background-color: rgb(249, 249, 249);
@@ -82,7 +83,7 @@ p2 {
 
 .post2-title p {
   font-weight: 700;
-  font-size: 19px;
+  font-size: 18px;
   padding-bottom: 8px;
 }
 
@@ -90,48 +91,50 @@ p2 {
   margin-left: 640px;
   margin-top: -262px;
   border-radius: 5px;
-  margin-bottom: 18px;
+
 }
 
 .post2-image1 {
-  width: 107%;
-  border-radius: 4px;
+  width: 102%;
+  border-radius: 4px; 
 }
 
 .post3-title a:link {
-  margin-right: 400px;
+  margin-right: 420px;
   margin-top: 120px;
   margin-left: 727px;
   position: absolute;
   top: 54%;
   left: 8%;
   color: white;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .post4-title {
+  width: 20%;
   margin-top: -75px;
   margin-left: 640px;
   margin-right: 410px;
   margin-bottom: 10px;
   background-color: rgb(249, 249, 249);
   border-radius: 5px;
-  padding: 20px;
+  padding: 21px;
 }
 
 .post5-title {
+  width: 20%;
   margin-top: 0px;
   margin-left: 640px;
   margin-right: 410px;
   margin-bottom: 18px;
   background-color: rgb(249, 249, 249);
   border-radius: 5px;
-  padding: 29px;
+  padding: 21px;
 }
 
 .post4-title p {
   font-weight: 700;
-  font-size: 18px;
+  font-size: 17px;
   padding-bottom: 15px;
 
 }
@@ -144,11 +147,11 @@ p2 {
 }
 
 .post1-with-background-image {
-  margin-top: -290px;
+  margin-top: -275px;
 }
 
 .post3-image1 {
-  filter: brightness(83%);
+  filter: brightness(75%);
   width: 23%;
   height: 55%;
   border-top-left-radius: 7px;
@@ -171,9 +174,9 @@ p2 {
 }
 
 
-.post2-with-image {
+.post3-with-image {
   margin-left: 320px;
-  margin-top: -330px;
+  margin-top: -328px;
 }
 
 .post4-image1 {
@@ -189,10 +192,125 @@ p2 {
   border-radius: 7px;
   padding: 18px;
   text-align: left;
-  margin-bottom: 15px;
+  margin-bottom: 0px;
 }
 
 .post7-title p {
   padding-bottom: 0px;
   font-size: 18px;
+}
+.part2-post1-image{
+  width: 46%;
+  height: 230px;
+  border-radius: 7px;
+  opacity: 1.4;
+  filter: brightness(65%);
+}
+.part2-post1{
+  margin-top: 20px;
+}
+.part2-post1-title {
+  text-align: center;
+  position: absolute;
+  top: 1130px;
+  left: 15%;
+  
+}
+.part2-post1-title p {
+  font-size: 15px;
+  color: rgb(243, 243, 243);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.part2-post2-image{
+  width: 46%;
+  height: 230px;
+  opacity: 1.4;
+  filter: brightness(80%);
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+.part2-post2{
+  margin-top: 10px;
+}
+.part2-post2-body {
+  margin-top: -4px;
+  margin-right: 721px;
+  background-color: rgb(255, 253, 253);
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  padding: 18px;
+  text-align: left;
+}
+.part2-post2-body p{
+  padding-top: 10px;
+  padding-bottom: 15px;
+  font-weight: 600;
+  color: rgb(171, 168, 168);
+}
+.part2-side-post1-image{
+  width: 20%;
+  margin-left: 637px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+.part2-side-post1{
+  margin-top: -692px;
+
+}
+.part2-post2-side-body {
+  margin-left: 637px;
+  margin-right: 430.5px;
+  background-color: rgb(255, 253, 253);
+  padding: 13px;
+  margin-top: -4px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+.part2-post2-title p{
+  
+  font-size: 16px;
+  padding-bottom: 11px;
+  
+}
+.part2-side-post2-image{
+  width: 20%;
+  margin-left: 637px;
+  margin-top: 13px;
+  border-radius: 7px;
+  opacity: 1.4;
+  filter: brightness(65%);
+  
+}
+.part2-side-post2-title{
+  text-align: center;
+  position: absolute;
+  top: 1300px;
+  left: 55%;
+  margin-right: 440px;
+  margin-top: 37px;
+}
+.part2-side-post2-title p{
+  font-size: 17px;
+  color: rgb(248, 252, 252);
+}
+.part2-side-post3-image{
+  width: 20%;
+  margin-left: 637px;
+  margin-top: 13px;
+  border-radius: 7px;
+  opacity: 1.4;
+  filter: brightness(65%);
+} 
+.part2-side-post3-title{
+  text-align: center;
+  position: absolute;
+  top: 1480px;
+  left: 55%;
+  margin-right: 440px;
+  margin-top: 55px;
+}
+.part2-side-post3-title p{
+  font-size: 17px;
+  color: rgb(248, 252, 252);
 }
