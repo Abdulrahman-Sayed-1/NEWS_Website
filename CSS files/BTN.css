@@ -6,7 +6,8 @@
     display: none;
 }
 .readMoreBtn {
-    padding: 10px 30px;
+    display: inline ;
+    padding: 5px 10px;
     font-size: 18px;
     background-color: rgb(149, 170, 197);
     color: rgb(53, 49, 49);
