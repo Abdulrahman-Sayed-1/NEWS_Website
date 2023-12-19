@@ -1,7 +1,4 @@
 
-.Text{
-    font-size: 24px;
-}
 .moreText{
     display: none;
 }
@@ -18,10 +15,4 @@
 }
 .moreText.show-more{
     display: inline;
-}
-.dots{
-    display: inline-block;
-}
-.Text.show-more.dots{
-    display: none;
 }
