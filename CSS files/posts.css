@@ -1,22 +1,23 @@
-body{
-  background-color:#696970;
+body {
+  background-color: #696970;
 
 }
+
 .news-section {
   float: left;
   width: 65%;
   padding: 20px;
-  background-color:#696960;
+  background-color: #898989;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   border-radius: 15px;
-  margin-left: 20px;
-  margin-top: 20px;
+  margin-left: 110px;
+  margin-top: 108px;
   margin-bottom: 20px;
 }
 
 .post {
   margin-bottom: 30px;
-  background-color:#f4f4f4;
+  background-color: #f4f4f4;
   border-radius: 15px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   padding: 20px;
@@ -44,6 +45,7 @@ body{
 .post_img:hover {
   transform: scale(1.05);
 }
+
 .post_title {
   line-height: 1.6;
   font-size: 1.2rem;
@@ -64,9 +66,11 @@ body{
   .news-section {
     padding: 15px;
   }
+
   .post h3 {
     font-size: 1.5rem;
   }
+
   .post_title {
     font-size: 1rem;
   }
