@@ -12,9 +12,8 @@ body {
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);/*h v blur speed*/
     text-align: center;
-    animation: fadeIn 0.5s ease-in-out;
 }
 
 h1 {
@@ -65,14 +64,6 @@ a:hover {
     color: #0056b3;
 }
 
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
 
 @keyframes slideIn {
     from {
