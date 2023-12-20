@@ -147,7 +147,7 @@ p2 {
 }
 
 .post1-with-background-image {
-  margin-top: -275px;
+  margin-top: -240px;
 }
 
 .post3-image1 {
@@ -188,7 +188,7 @@ p2 {
 .post2-body {
   margin-top: -10px;
   margin-right: 720px;
-  background-color: rgb(249, 249, 249);
+  background-color: rgb(253, 251, 251);
   border-radius: 7px;
   padding: 18px;
   text-align: left;
@@ -255,7 +255,7 @@ p2 {
   border-top-right-radius: 7px;
 }
 .part2-side-post1{
-  margin-top: -692px;
+  margin-top: -720px;
 
 }
 .part2-post2-side-body {
@@ -288,7 +288,7 @@ p2 {
   top: 1300px;
   left: 55%;
   margin-right: 440px;
-  margin-top: 37px;
+  margin-top: 5px;
 }
 .part2-side-post2-title p{
   font-size: 17px;
@@ -308,7 +308,7 @@ p2 {
   top: 1480px;
   left: 55%;
   margin-right: 440px;
-  margin-top: 55px;
+  margin-top: 30px;
 }
 .part2-side-post3-title p{
   font-size: 17px;

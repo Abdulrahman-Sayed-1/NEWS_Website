@@ -47,7 +47,6 @@ ul{
 
 .footer-widget-area .icons {
   display: flex;
-  flex-wrap: wrap;
   margin-left: -49px;
   margin-top: 18px;
 }

@@ -3,15 +3,6 @@
     padding: 0;
     margin: 0;
 }
-
-body {
-    background: #fff;
-}
-
-.nav-bar {
-    position: sticky;
-}
-
 .nav-bar ul {
     list-style-type: none;
     background-color: #080808;
@@ -31,7 +22,6 @@ body {
     text-decoration: none;
     padding: 27px;
     display: inline-block;
-    text-align: center;
     transition: 0.3s;
 
 }
